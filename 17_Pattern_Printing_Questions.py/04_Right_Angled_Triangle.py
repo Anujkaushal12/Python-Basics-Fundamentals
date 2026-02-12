@@ -15,18 +15,17 @@
 #     Input: 5
 #     Output: ['*', '**', '***', '****', '*****']
 
+#By loop only
+n=int(input("Enter your number"))
+for i in range(1,n+1):
+    print("*"*i)
 
-
+#through functions
 def generate_right_angled_triangle(n):
     right_angled_triangle_squares=[]
     for i in range(1,n+1):
         right_angled_triangle_squares.append("*"*i)
     return right_angled_triangle_squares
 
-#By loop only
 n=int(input("Enter your number"))
 print(generate_right_angled_triangle(n))
-
-n=int(input("Enter your number"))
-for i in range(1,n+1):
-    print("*"*i)

@@ -5,6 +5,13 @@
 #     Input: n = 3, m = 2
 #     Output: ['**', '**', '**']
 
+#Through loops only
+m=int(input("Enter the number"))
+n=int(input("Enter the number"))
+for i in range(0,m):
+    print("*"*n)
+
+#Through functions
 def generate_rectangle_pattern(m,n):
     rectangle_squares=[]
     for i in range(1,m+1):
@@ -15,8 +22,3 @@ m=int(input("Enter the number"))
 n=int(input("Enter the number"))
 print(generate_rectangle_pattern(m,n))
 
-#Through loops only
-m=int(input("Enter the number"))
-n=int(input("Enter the number"))
-for i in range(0,m):
-    print("*"*n)

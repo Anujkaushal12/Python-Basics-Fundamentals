@@ -1,3 +1,12 @@
+#Through loops only
+n=int(input("Enter your number"))
+for i in range(1,n+1):
+    if i==1 or i==n:
+        print("*"*n)
+    else:
+        print("*"+" "*(n-2)+"*")
+
+#Through function
 def generate_hollow_square(n):
     hollow_squares=[]
     for i in range(0,n):
@@ -9,11 +18,3 @@ def generate_hollow_square(n):
 
 n=int(input("Enter your number"))
 print(generate_hollow_square(n))
-
-#Through loops only
-n=int(input("Enter your number"))
-for i in range(1,n+1):
-    if i==1 or i==n:
-        print("*"*n)
-    else:
-        print("*"+" "*(n-2)+"*")

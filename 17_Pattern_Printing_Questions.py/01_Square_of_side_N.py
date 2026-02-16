@@ -11,7 +11,7 @@ for i in range(1,n+1):
     print("*"*n)
 
 
-#Thrpough functions
+#Through functions
 def generate_square(n):
     squares=[]
     for i in range(1,n+1):

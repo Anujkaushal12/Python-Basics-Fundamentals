@@ -15,7 +15,6 @@ while i > 0:
     while j < (n - i):
         print(" ", end="")
         j += 1
-        
     k = 0
     while k < (2 * i - 1):
         print("*", end="")
@@ -29,10 +28,11 @@ while p <= n:
     while q < (n - p):
         print(" ", end="")
         q += 1
-
     r = 0
     while r < (2 * p - 1):
         print("*", end="")
         r += 1
     print()
     p += 1
+
+

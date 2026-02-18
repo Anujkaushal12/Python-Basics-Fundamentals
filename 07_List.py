@@ -92,21 +92,3 @@ for name in names:
 #Iteration over list with index
 for index,name in enumerate(names,start=0):  #A Python tool that allows you to loop through an iterable like a (list, tuple, or string) and have access to both the index and the element itself
     print(f"At index {index} name is {name}")
-
-#List comphrehension
-numbers=[10,20,30,40,50]
-even_numbers=[number for number in numbers if number%2==0]
-print(even_numbers)
-
-
-#Nested list comphrehension
-lst1=[1,2,3,4]
-lst2=["a","b","c","d"]
-pair=[[i,j] for i in lst1 for j in lst2]
-print(pair)
-
-#List comphrehension with function call
-words=["hello","anuj","how","are","you"]
-lengths=[len(word) for word in words]
-print(lengths)
-

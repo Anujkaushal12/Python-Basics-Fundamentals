@@ -3,7 +3,7 @@
 to_do_list=["Buy groceries","Clean the house","Pay bills","Finish project","Call mom"]
 print("To-Do List:")
 for index,task in enumerate(to_do_list, start=1):
-    print(f"{index}. {task}")
+    print(f"{index}.{task}")
 
 #Example2
 #organizing student grades

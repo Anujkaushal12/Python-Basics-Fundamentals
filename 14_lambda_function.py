@@ -1,7 +1,10 @@
 # Lambda functions are small anonymous functions defined using the **lambda** keyword. They can have any number of arguments but only one expression. They are commonly used for short operations or as arguments to higher-order functions.
 
 #Syntax
-lambda argument: expression
+from ast import Expression
+
+
+lambda argument: Expression
 
 #Function
 def mul(a,b):

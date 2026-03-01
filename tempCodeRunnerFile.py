@@ -1,2 +1,2 @@
-
-heroes=["Spider-man","batman","superman","ronaldo"]
+f_content=f.readline()
+    print(f_content)

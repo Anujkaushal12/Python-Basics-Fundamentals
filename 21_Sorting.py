@@ -49,6 +49,7 @@ employees=[e1,e2,e3]
 # def e_sort(emp):
 #     return emp.salary
 
-s_employees=sorted(employees, key=attrgetter("age"))
+# s_employees=sorted(employees, key=attrgetter("age"))
+s_employees=sorted(employees, key=lambda x: x.age)
 
 print(s_employees)
